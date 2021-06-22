@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-web-at-berkeley",
+  "name": "@web-at-berkeley/eslint-config",
   "version": "1.0.0",
   "description": "ESLint configuration for Web @ Berkeley",
   "main": "index.js",
