@@ -1,10 +1,11 @@
 {
   "name": "@web-at-berkeley/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ESLint configuration for Web @ Berkeley",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ../..",
+    "publish": "git push & npm publish"
   },
   "repository": {
     "type": "git",
@@ -16,17 +17,15 @@
     "url": "https://github.com/web-at-berkeley/eslint-config-web-at-berkeley/issues"
   },
   "homepage": "https://github.com/web-at-berkeley/eslint-config-web-at-berkeley#readme",
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.1",
+    "typescript": "*",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0"
-  },
-  "peerDependencies": {
-    "eslint": "^7.29.0",
-    "prettier": "^2.3.1",
-    "typescript": "*"
   }
 }
