@@ -1,11 +1,10 @@
 {
   "name": "@web-at-berkeley/eslint-config",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "ESLint configuration for Web @ Berkeley",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ../..",
-    "publish": "git push & npm publish"
+    "test": "eslint ../.."
   },
   "repository": {
     "type": "git",
